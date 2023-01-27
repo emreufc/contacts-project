@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Skeleton-2.0.4/css/normalize.css">
+    <link rel="stylesheet" href="./Skeleton-2.0.4/css/skeleton.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contacts App</h1>
+
+        <div class="info">Successfully Added</div>
+        <!-- <div class="info info--error">Error</div> -->
+        <form id="form-contact">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" class="u-full-width">
+            </div>
+            <div>
+                <label for="surName">Surname</label>
+                <input type="text" id="surName" class="u-full-width">
+            </div>
+            <div>
+                <label for="email">E-Mail Adress</label>
+                <input type="text" id="mail" class="u-full-width">
+            </div>
+            <div>
+                <input class="button-primary u-full-width saveEdit" type="submit" value="Submit">
+            </div>
+        </form> 
+        <hr>
+        <table class="u-full-width">
+            <thead>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>E-Mail</th>
+                <th>Process</th>
+            </thead>
+            <tbody class="contact-list">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app_with_classes.js"></script>
+</body>
+</html>
